@@ -1,6 +1,8 @@
+import constantes
+
 print("PRIMERA APP EN Python")
 PI= 3.141516
-numero1=10
+numero1=43
 numero2=20
 radio= 5
 cadena1="Cadena de texto para pruebas"
@@ -28,8 +30,19 @@ print("El producto " + n1 + " * " + n2 + " = " + producto)
 cociente= numero1/numero2
 cociente= str(cociente)
 print("El cociente entre " + n1 + "/" + n2 +" = " + cociente)
-area= PI* (radio**2)
+cociente= numero1//numero2
+cociente= str(cociente)
+print("El cociente entero entre " + n1 + "/" + n2 +" = " + cociente)
+area= constantes.PI* (radio**2)
 print("==========================")
 print("|Radio= " + str(radio))
 print("|Area= " + str(area))
+print("==========================")
+print("==========================")
+resto= numero1 % 2
+print(str(resto))
+if resto==0:
+    print("PAR")
+else:
+    print("IMPAR")
 
