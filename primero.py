@@ -38,16 +38,3 @@ area= constantes.PI* (radio**2)
 print("==========================")
 print("|Radio= " + str(radio))
 print("|Area= " + str(area))
-<<<<<<< HEAD
-print("==========================")
-print("==========================")
-resto= numero1 % 2
-print(str(resto))
-if resto==0:
-    print("PAR")
-else:
-    print("IMPAR")
-
-=======
-print(vector[5])
->>>>>>> 8d3cba558e085997478833ebc936716675da692e
