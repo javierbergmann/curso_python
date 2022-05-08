@@ -1,4 +1,5 @@
 print("PRIMERA APP EN Python")
+vector=[]
 PI= 3.141516
 numero1=10
 numero2=20
@@ -32,4 +33,4 @@ area= PI* (radio**2)
 print("==========================")
 print("|Radio= " + str(radio))
 print("|Area= " + str(area))
-
+print(vector[5])
